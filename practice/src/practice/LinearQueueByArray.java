@@ -39,7 +39,7 @@ public class LinearQueueByArray {
 	}
 
 	public void dequeue() {
-		if (isQueueEmpty() || beginningofqueue == -1) {
+		if (isQueueEmpty()) {
 			System.out.println("Queue is empty.Queue underflow error!");
 			return;
 		}
