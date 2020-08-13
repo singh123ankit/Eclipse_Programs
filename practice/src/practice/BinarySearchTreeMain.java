@@ -14,7 +14,7 @@ public class BinarySearchTreeMain {
 		System.out.println("\n");
 		System.out.println("deleting node....\n");
 		obj.deleteNode(90);
-		System.out.println("\n");
+		System.out.println("\n\n");
 		obj.deleteTree();
 	}
 

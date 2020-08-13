@@ -95,7 +95,7 @@ public class BinarySearchTree {
 		int currentlevel = 1;
 		boolean previouslevelwasallnull = false;
 		if (root == null) {
-			System.out.println("Tree does not exist!");
+			System.out.println("Tree does not exist!!");
 			return;
 		}
 		Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
